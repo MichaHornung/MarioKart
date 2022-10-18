@@ -13,6 +13,10 @@
 		BA08A27D28FEA1F700755BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA08A27B28FEA1F700755BD7 /* Main.storyboard */; };
 		BA08A27F28FEA1F800755BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA08A27E28FEA1F800755BD7 /* Assets.xcassets */; };
 		BA08A28228FEA1F800755BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA08A28028FEA1F800755BD7 /* LaunchScreen.storyboard */; };
+		BA08A28A28FEA46500755BD7 /* gesundheitsmanagement-super-mario.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA08A28928FEA46500755BD7 /* gesundheitsmanagement-super-mario.jpg */; };
+		BA08A28C28FEA9DA00755BD7 /* GreenShell_-_MarioPartyStarRush.png in Resources */ = {isa = PBXBuildFile; fileRef = BA08A28B28FEA9DA00755BD7 /* GreenShell_-_MarioPartyStarRush.png */; };
+		BA08A28E28FEAA0000755BD7 /* purepng.com-super-mario-jumpingmariofictional-charactervideo-gamefranchisenintendodesigner-1701528623664755si.png in Resources */ = {isa = PBXBuildFile; fileRef = BA08A28D28FEAA0000755BD7 /* purepng.com-super-mario-jumpingmariofictional-charactervideo-gamefranchisenintendodesigner-1701528623664755si.png */; };
+		BA08A29028FEAAB300755BD7 /* 1022902.png in Resources */ = {isa = PBXBuildFile; fileRef = BA08A28F28FEAAB300755BD7 /* 1022902.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		BA08A27E28FEA1F800755BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA08A28128FEA1F800755BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA08A28328FEA1F800755BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA08A28928FEA46500755BD7 /* gesundheitsmanagement-super-mario.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gesundheitsmanagement-super-mario.jpg"; sourceTree = "<group>"; };
+		BA08A28B28FEA9DA00755BD7 /* GreenShell_-_MarioPartyStarRush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreenShell_-_MarioPartyStarRush.png"; sourceTree = "<group>"; };
+		BA08A28D28FEAA0000755BD7 /* purepng.com-super-mario-jumpingmariofictional-charactervideo-gamefranchisenintendodesigner-1701528623664755si.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purepng.com-super-mario-jumpingmariofictional-charactervideo-gamefranchisenintendodesigner-1701528623664755si.png"; sourceTree = "<group>"; };
+		BA08A28F28FEAAB300755BD7 /* 1022902.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1022902.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				BA08A27728FEA1F700755BD7 /* SceneDelegate.swift */,
 				BA08A27928FEA1F700755BD7 /* ViewController.swift */,
 				BA08A27B28FEA1F700755BD7 /* Main.storyboard */,
+				BA08A28F28FEAAB300755BD7 /* 1022902.png */,
+				BA08A28D28FEAA0000755BD7 /* purepng.com-super-mario-jumpingmariofictional-charactervideo-gamefranchisenintendodesigner-1701528623664755si.png */,
+				BA08A28B28FEA9DA00755BD7 /* GreenShell_-_MarioPartyStarRush.png */,
+				BA08A28928FEA46500755BD7 /* gesundheitsmanagement-super-mario.jpg */,
 				BA08A27E28FEA1F800755BD7 /* Assets.xcassets */,
 				BA08A28028FEA1F800755BD7 /* LaunchScreen.storyboard */,
 				BA08A28328FEA1F800755BD7 /* Info.plist */,
@@ -126,7 +138,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA08A28228FEA1F800755BD7 /* LaunchScreen.storyboard in Resources */,
+				BA08A29028FEAAB300755BD7 /* 1022902.png in Resources */,
+				BA08A28C28FEA9DA00755BD7 /* GreenShell_-_MarioPartyStarRush.png in Resources */,
+				BA08A28A28FEA46500755BD7 /* gesundheitsmanagement-super-mario.jpg in Resources */,
 				BA08A27F28FEA1F800755BD7 /* Assets.xcassets in Resources */,
+				BA08A28E28FEAA0000755BD7 /* purepng.com-super-mario-jumpingmariofictional-charactervideo-gamefranchisenintendodesigner-1701528623664755si.png in Resources */,
 				BA08A27D28FEA1F700755BD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
