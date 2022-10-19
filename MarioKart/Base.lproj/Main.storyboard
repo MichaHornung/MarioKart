@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="dark"/>
+    <device id="retina6_7" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,16 +13,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MarioKart" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gesundheitsmanagement-super-mario.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eyr-Gl-JOu">
-                                <rect key="frame" x="0.0" y="294" width="677" height="558"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gesundheitsmanagement-super-mario.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eyr-Gl-JOu">
+                                <rect key="frame" x="-30" y="370" width="677" height="558"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="558" id="PGA-og-UEh"/>
+                                    <constraint firstAttribute="width" constant="677" id="r5l-pJ-UnB"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3F-kH-CX8">
-                                <rect key="frame" x="115" y="107" width="188" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3F-kH-CX8">
+                                <rect key="frame" x="159" y="97" width="110" height="35"/>
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <buttonConfiguration key="configuration" style="gray" cornerStyle="large">
                                     <attributedString key="attributedTitle">
@@ -36,9 +38,15 @@
                                     <color key="baseBackgroundColor" systemColor="placeholderTextColor"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNq-bN-Sy1">
-                                <rect key="frame" x="115" y="161" width="188" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="purepng.com-super-mario-jumpingmariofictional-charactervideo-gamefranchisenintendodesigner-1701528623664755si.png" translatesAutoresizingMaskIntoConstraints="NO" id="qHS-iv-lbM">
+                                <rect key="frame" x="142" y="525" width="90" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="e7o-jh-ofN"/>
+                                    <constraint firstAttribute="height" constant="148" id="olL-Pv-gfI"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNq-bN-Sy1">
+                                <rect key="frame" x="160" y="152" width="108" height="35"/>
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <buttonConfiguration key="configuration" style="gray" cornerStyle="large">
                                     <attributedString key="attributedTitle">
@@ -52,25 +60,32 @@
                                     <color key="baseBackgroundColor" systemColor="placeholderTextColor"/>
                                 </buttonConfiguration>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Yoshi-SSB4-Artwork" translatesAutoresizingMaskIntoConstraints="NO" id="mpw-rW-lkz">
-                                <rect key="frame" x="172" y="648" width="118" height="118"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Yoshi-SSB4-Artwork" translatesAutoresizingMaskIntoConstraints="NO" id="mpw-rW-lkz">
+                                <rect key="frame" x="0.0" y="740" width="400" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="gx2-Qv-0Rn"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="1022902.png" translatesAutoresizingMaskIntoConstraints="NO" id="oCh-qN-6fv">
-                                <rect key="frame" x="152" y="639" width="184" height="184"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="1022902.png" translatesAutoresizingMaskIntoConstraints="NO" id="oCh-qN-6fv">
+                                <rect key="frame" x="122" y="715" width="184" height="184"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="184" id="IPV-WZ-9y3"/>
+                                    <constraint firstAttribute="width" constant="184" id="n5g-4s-DJj"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="GreenShell_-_MarioPartyStarRush.png" translatesAutoresizingMaskIntoConstraints="NO" id="57d-Jm-yPk">
-                                <rect key="frame" x="269" y="547" width="28" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="GreenShell_-_MarioPartyStarRush.png" translatesAutoresizingMaskIntoConstraints="NO" id="57d-Jm-yPk">
+                                <rect key="frame" x="249" y="621" width="28" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="csJ-cH-1nU"/>
+                                    <constraint firstAttribute="width" constant="28" id="vyt-Sa-qnw"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="purepng.com-super-mario-jumpingmariofictional-charactervideo-gamefranchisenintendodesigner-1701528623664755si.png" translatesAutoresizingMaskIntoConstraints="NO" id="qHS-iv-lbM">
-                                <rect key="frame" x="186" y="466" width="90" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="beY-87-ikV">
-                                <rect key="frame" x="115" y="239" width="188" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="beY-87-ikV">
+                                <rect key="frame" x="177.66666666666666" y="229" width="73" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="Ebf-np-FaC"/>
+                                    <constraint firstAttribute="height" constant="35" id="RMS-et-oFm"/>
+                                </constraints>
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
                                     <attributedString key="attributedTitle">
@@ -87,6 +102,27 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.22486101030086908" green="0.46448036965990913" blue="0.72630872927835055" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="u3F-kH-CX8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0jz-AJ-W4g"/>
+                            <constraint firstItem="u3F-kH-CX8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1Fg-84-96K"/>
+                            <constraint firstItem="u3F-kH-CX8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="6Jw-x1-L9z"/>
+                            <constraint firstItem="57d-Jm-yPk" firstAttribute="leading" secondItem="qHS-iv-lbM" secondAttribute="trailing" constant="17" id="BML-IA-uRj"/>
+                            <constraint firstItem="oCh-qN-6fv" firstAttribute="top" secondItem="57d-Jm-yPk" secondAttribute="bottom" constant="72" id="BT2-56-5z8"/>
+                            <constraint firstItem="gNq-bN-Sy1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C9b-6n-MNa"/>
+                            <constraint firstItem="mpw-rW-lkz" firstAttribute="top" secondItem="qHS-iv-lbM" secondAttribute="bottom" constant="67" id="MDf-ql-dmu"/>
+                            <constraint firstItem="eyr-Gl-JOu" firstAttribute="leading" secondItem="mpw-rW-lkz" secondAttribute="trailing" constant="-430" id="PHU-VH-RyG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mpw-rW-lkz" secondAttribute="bottom" constant="52" id="Q2u-Wd-5UM"/>
+                            <constraint firstItem="eyr-Gl-JOu" firstAttribute="leading" secondItem="57d-Jm-yPk" secondAttribute="trailing" constant="-307" id="SQE-Ho-dTS"/>
+                            <constraint firstItem="beY-87-ikV" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bGh-Yc-39d"/>
+                            <constraint firstItem="oCh-qN-6fv" firstAttribute="top" secondItem="mpw-rW-lkz" secondAttribute="bottom" constant="-125" id="g7P-yT-nSX"/>
+                            <constraint firstItem="beY-87-ikV" firstAttribute="top" secondItem="gNq-bN-Sy1" secondAttribute="bottom" constant="42" id="gHQ-7Q-oPX"/>
+                            <constraint firstItem="eyr-Gl-JOu" firstAttribute="leading" secondItem="oCh-qN-6fv" secondAttribute="trailing" constant="-336" id="gZC-t6-tEW"/>
+                            <constraint firstItem="gNq-bN-Sy1" firstAttribute="top" secondItem="u3F-kH-CX8" secondAttribute="bottom" constant="20" id="iD6-L1-XxU"/>
+                            <constraint firstItem="eyr-Gl-JOu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-30" id="nd8-8E-5VH"/>
+                            <constraint firstItem="gNq-bN-Sy1" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="s6Q-1M-3RL"/>
+                            <constraint firstItem="beY-87-ikV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tas-Z7-df3"/>
+                            <constraint firstItem="eyr-Gl-JOu" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="36" id="vWR-Mr-wNT"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
